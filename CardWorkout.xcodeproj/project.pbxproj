@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CA922AA829793CD900D06762 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA922AA729793CD900D06762 /* AppDelegate.swift */; };
 		CA922AAA29793CD900D06762 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA922AA929793CD900D06762 /* SceneDelegate.swift */; };
-		CA922AAC29793CD900D06762 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA922AAB29793CD900D06762 /* ViewController.swift */; };
 		CA922AAF29793CD900D06762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA922AAD29793CD900D06762 /* Main.storyboard */; };
 		CA922AB129793CDA00D06762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA922AB029793CDA00D06762 /* Assets.xcassets */; };
 		CA922AB429793CDA00D06762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA922AB229793CDA00D06762 /* LaunchScreen.storyboard */; };
+		CA922ABC29793DD600D06762 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA922ABB29793DD600D06762 /* CardSelectionVC.swift */; };
+		CABD6839297986D3006994E8 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABD6838297986D3006994E8 /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CA922AA429793CD900D06762 /* CardWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA922AA729793CD900D06762 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA922AA929793CD900D06762 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CA922AAB29793CD900D06762 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA922AAE29793CD900D06762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA922AB029793CDA00D06762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA922AB329793CDA00D06762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA922AB529793CDA00D06762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA922ABB29793DD600D06762 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		CABD6838297986D3006994E8 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				CA922AA729793CD900D06762 /* AppDelegate.swift */,
 				CA922AA929793CD900D06762 /* SceneDelegate.swift */,
-				CA922AAB29793CD900D06762 /* ViewController.swift */,
+				CA922ABB29793DD600D06762 /* CardSelectionVC.swift */,
+				CABD6838297986D3006994E8 /* Deck.swift */,
 				CA922AAD29793CD900D06762 /* Main.storyboard */,
 				CA922AB029793CDA00D06762 /* Assets.xcassets */,
 				CA922AB229793CDA00D06762 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA922AAC29793CD900D06762 /* ViewController.swift in Sources */,
+				CABD6839297986D3006994E8 /* Deck.swift in Sources */,
 				CA922AA829793CD900D06762 /* AppDelegate.swift in Sources */,
 				CA922AAA29793CD900D06762 /* SceneDelegate.swift in Sources */,
+				CA922ABC29793DD600D06762 /* CardSelectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
